@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { Search, Plus, Pencil, Trash2, Download, SlidersHorizontal, Users } from "lucide-react";
-import StudentModal from "../components/StudentModal";
+import StudentModal from "../components/studentmodal.jsx";
 import { getGrade } from "../data";
 
 export default function Students({ students, onAdd, onUpdate, onDelete }) {
